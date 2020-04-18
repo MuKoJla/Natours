@@ -1,0 +1,16 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; /* чуть лучше практика и легче переопределять бокссайзинг потом */
+}
+
+html {
+  // 1rem is 50%(10px) My default browser settings of font size is 20px. 10/20 = 0.5
+  font-size: 50%;
+}
+
+body {
+  box-sizing: border-box;
+}
